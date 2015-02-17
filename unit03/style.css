@@ -1,0 +1,25 @@
+body {
+	background: url("images/stjohngoods.jpg");
+	background-size:cover;
+	color:#fff;
+	font-family: Oswald, sans-serif;
+	letter-spacing: 3px;
+	text-align: center;
+}
+a {	color: #fff;
+	font-family: 'Slabo 27px', serif;
+}
+h1 {
+}
+p {
+}
+ul {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 25px;
+	padding: 0px;
+}
+#slogan {
+	font-style: italic;
+	font-family: 'Slabo 27px', serif;
+}
