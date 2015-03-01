@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Sanchez);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+html {
+	background: url("images/stjohngoods.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+body {
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	text-align: center;
+}
+header {
+	margin: 25px;
+}
+/*nav{
+	background-color: #6DCCA9;
+	float: left;
+	display: block;
+	text-align: left;
+	padding: 15px;
+}
+*/
+footer{
+	padding: 50px;
+}
+h1 { 
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+h3 {
+	font-family: "Sanchez", serif;
+	font-size: 16px;
+	letter-spacing: 5px;
+}
+p {
+}
+a:link {	
+	color: #fff;
+	font-family: "Sanchez", serif;
+	letter-spacing: 2px;
+	text-decoration: none; 
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	letter-spacing:2px;
+	line-height: 30px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
