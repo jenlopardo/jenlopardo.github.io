@@ -1,0 +1,148 @@
+@font-face{
+	font-family: FuturaExtBold;
+	src: url(fonts/FuturaStd-ExtraBold.otf);
+}
+@font-face{
+	font-family: FuturaBold;
+	src: url(fonts/FuturaStd-Bold.otf);
+}
+@font-face{
+	font-family: MemphisLt;
+	src: url(fonts/Memphis-Light.otf);
+}
+body{
+/*	background-color: #333366;
+*/	
+	background: url(images/bkgrdnoise.png);
+	margin: 0 0;
+}
+h1, h4{
+	text-transform: uppercase;
+	text-align: center;
+}
+h1{
+	color: #ccc;
+	font-family: "FuturaExtBold", sans-serif;
+	font-size: 24px;
+	letter-spacing: 15px;
+	padding: 5px 0;
+	text-shadow: 0px 5px 5px #2f2f5b;
+}
+h2{
+	color: #ffcc00;
+	font-family: "FuturaBold", sans-serif;
+	font-size: 15px;
+	letter-spacing: 5px;
+	margin: 0 0 5px 0;
+	padding: 18px 0 0 0;
+	text-transform: uppercase;
+}
+h3{
+	color: #fff;
+	display: inline;
+	font-family: "MemphisLt", serif;
+	font-size: 13px;
+	letter-spacing: 3px;
+	text-align: left;
+	text-transform: uppercase;
+}
+h4{
+	color: #fff;
+	font-family: "MemphisLt", serif;
+	font-size: 13px;
+	letter-spacing: 5px;
+}
+p{
+	color: #fff;
+	font-family: "MemphisLt", serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 1.5em;
+}
+ul{
+	list-style: circle;
+	margin: 0 0 25px;
+	padding: 0 0;
+}
+li{
+	color: #fff;
+	font-family: "MemphisLt", serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+header{
+	width: 550px;
+	margin: 35px auto 70px;
+}
+nav{
+	width: 400px;
+	margin: 0 auto;
+	padding: 0 0;
+
+}
+hr{
+	width: 100%;
+	margin: 0 0;
+	border: #282848 solid 10px;
+}
+a.one:link {
+	color:#fff;
+}
+a.one:visited {
+	color:#fff;
+}
+a.one:hover {
+	color:#ffcc00;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:link{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+a:visited{
+	color: #fff;
+}
+#bar{
+	height: 10px;
+	background-color: #000;
+	border: solid #000 10px;
+}
+
+#jeff{
+	color: #000;
+	background: #ffcc00;
+	margin: 0 auto;
+	padding: 10px 10px;
+	text-transform: uppercase;
+	width: 180px;
+}
+#sidebar{
+	display: block;
+	float: left;
+	padding: 50px 50px;
+	width: 20%;
+}
+#main{
+	display: inline;
+	float: left;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 50%;
+}
+#nav{
+	color: #fff;
+	border: #fff solid 1px;
+	display: inline;
+	font-family: "MemphisLt", serif;
+	font-size: 14px;
+	letter-spacing: 5px;
+	margin: 0 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
