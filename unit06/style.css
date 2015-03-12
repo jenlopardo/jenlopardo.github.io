@@ -81,12 +81,12 @@ header{
 	margin: 35px auto 70px;
 }
 nav{
-	display: inline;
+	display: inline-block;
 	font-family: "MemphisLt", serif;
 	font-size: 14px;
 	letter-spacing: 5px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 50px;
 	text-transform: uppercase;
 }
 nav a:link{
