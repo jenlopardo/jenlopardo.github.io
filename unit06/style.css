@@ -81,23 +81,33 @@ header{
 	margin: 35px auto 70px;
 }
 nav{
-	display: inline-block;
 	font-family: "MemphisLt", serif;
 	font-size: 14px;
 	letter-spacing: 5px;
 	margin: 0 auto;
 	padding: 0 50px;
+	width: 395px;
 	text-transform: uppercase;
 }
-nav a:link{
+nav ul {
+	padding-bottom: 0;
+}
+nav a {
+	display: block;
+}
+nav li {
+	display: inline-block;
+}
+nav li a:link {
 	color: #fff;
 	padding: 10px 25px; 
 	text-decoration: none;
-	outline: 1px solid #fff;
+	border: 1px solid #fff;
 }
-nav a:hover{
+nav li a:hover{
 	color: #ffcc00;
 	text-decoration: none;
+	border: 1px solid #ffcc00;
 }
 a:link{
 	color: #fff;
