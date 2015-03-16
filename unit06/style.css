@@ -11,13 +11,6 @@
 	src: url(fonts/Memphis-Light.otf);
 }
 body{
-	background: url(images/bkgrdnoise.png);
-	margin: 0 0;
-}
-hr{
-	width: 100%;
-	margin: 0 0;
-	border: #282848 solid 10px;
 }
 h1, h4{
 	text-transform: uppercase;
@@ -25,25 +18,25 @@ h1, h4{
 }
 h1{
 	color: #ccc;
-	font-family: "FuturaExtBold", sans-serif;
-	font-size: 24px;
+	font-family: "FuturaBold", sans-serif;
+	font-size: 100px;
 	letter-spacing: 15px;
-	padding: 10px 0 10px 0;
+	padding: 25% 0 10px 0;
 	text-shadow: 0px 5px 5px #2f2f5b;
 }
 h2{
-	color: #ffcc00;
+	color: #fff;
 	font-family: "FuturaBold", sans-serif;
-	font-size: 15px;
-	letter-spacing: 5px;
-	margin: 0 0 5px 0;
-	padding: 18px 0 0 0;
+	font-size: 30px;
+	letter-spacing: 15px;
+	padding-bottom: 100px;
+	text-align: center;
 	text-transform: uppercase;
 }
 h3{
-	color: #fff;
-	font-family: "MemphisLt", serif;
-	font-size: 13px;
+	color: #ffcc00;
+	font-family: "FuturaBold", sans-serif;
+	font-size: 15px;
 	letter-spacing: 3px;
 	text-align: left;
 	text-transform: uppercase;
@@ -54,60 +47,48 @@ h4{
 	font-family: "MemphisLt", serif;
 	font-size: 13px;
 	letter-spacing: 4px;
-	line-height: 20px;
+	line-height: 30px;
 	padding: 0 0 10px 0;
 }
 p{
 	color: #fff;
 	font-family: "MemphisLt", serif;
-	font-size: 20px;
+	font-size: 16px;
 	letter-spacing: 2px;
 	line-height: 1.5em;
 }
-ul{
-	list-style: circle;
-	margin: 0;
-	padding-bottom: 25px;
-}
-li{
-	color: #fff;
-	font-family: "MemphisLt", serif;
-	font-size: 16px;
-	letter-spacing: 2px;
-	line-height: 1.25em;
+section{
+	height: 100vh;
 }
 header{
-	width: 550px;
-	margin: 35px auto 70px;
+	margin: 0 0;
+	text-align: center;
 }
 nav{
+	background: #24094C;
 	font-family: "MemphisLt", serif;
 	font-size: 14px;
 	letter-spacing: 5px;
-	margin: 0 auto;
-	padding: 0 50px;
-	width: 395px;
+	height: 50px;
 	text-transform: uppercase;
+	position: fixed;
+	width: 100%;
 }
 nav ul {
-	padding-bottom: 0;
-}
-nav a {
-	display: block;
+	padding: 20px 50px;
 }
 nav li {
 	display: inline-block;
+	width: 100px;
 }
 nav li a:link {
 	color: #fff;
-	padding: 10px 25px; 
+	display: block;
 	text-decoration: none;
-	border: 1px solid #fff;
 }
 nav li a:hover{
 	color: #ffcc00;
 	text-decoration: none;
-	border: 1px solid #ffcc00;
 }
 a:link{
 	color: #fff;
@@ -120,24 +101,44 @@ a:hover{
 a:visited{
 	color: #fff;
 }
-#jeff{
-	color: #000;
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#intro{
+	background: url(images/bkgrdnoise.png);
+}
+#about{
+	background: #666699;
+	padding: 100px 50px;
+}
+#design{
+	background: #333;
+	margin: 0 auto;
+	padding: 100px 50px 50px 50px;
+}
+#design img{
+	width: 33%;
+}
+#photos{
 	background: #ffcc00;
 	margin: 0 auto;
-	padding: 10px 10px;
-	text-transform: uppercase;
-	width: 180px;
+	padding: 100px 50px 50px 50px;
 }
-#sidebar{
-	display: block;
-	float: left;
-	padding: 50px 50px;
-	width: 20%;
+#photos img{
+	width: 33%;
 }
-#main{
-	display: inline;
+#bio{
 	float: left;
-	margin: 0 auto;
-	padding: 50px 0;
-	width: 50%;
+	width: 60%;
+	padding-right: 50px;
+}
+#contact{
+	float: left;	
+	width: 25%;
+	padding-right: 25px;
 }
