@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Slabo+13px);
+@font-face{
+	font-family: AvenirNextBold;
+	src: url(fonts/AvenirNextBold.otf);
+}
+body{
+	font-size: 16px;
+	text-align: center;
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.25em;
+	line-height: 1.5em;
+}
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+}
+h3{
+	font-family: 'Slabo 13px', serif;
+}
+p{
+	font-family: 'Slabo 13px', serif;
+	line-height: 1.5em;
+	color: #003333;
+}
+ul{
+	float: left;
+	text-align: left;
+}
+li{
+	font-family: 'AvenirNextBold', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #996600;
+	display: block;
+	padding: 5px 15px;
+}
+li a{
+	text-decoration: underline;
+	color: #000;
+}
+span{
+	font-size: 18px;
+	color: #fff;
+}
+section{
+}
+header{
+	background-color: yellow;
+}
+nav{
+}
+#logo{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+}
+#shopintro{
+	background-color: #003333;
+	color: #fff;
+}
+#storyintro{
+	background: url('images/story.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 50px;
+	overflow: auto;
+}
+#productintro{
+}
+#babyspoon{
+	background: url('images/babyspoon.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 50px;
+	overflow: auto;
+}
+#petitespoon{
+	background:url('images/petitespoon.jpg');
+	padding: 50px;
+}
+#productdescrip{
+	width: 300px;
+	margin: 0 auto;
+}
+.buttonshop, .buttonstory, .buttonproduct{
+	font-family: 'AvenirNextBold',sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	display: inline-block;
+	border: 2px solid #C5EAD5;
+	margin: 10px 0;
+	padding: 5px 15px;
+}
+.buttonshop{
+	color: #C5EAD5;
+}
+.buttonstory{
+	background-color: #996600;
+	border: 2px solid #996600;
+	color: #fff;
+}
+.buttonproduct{
+	border: 2px solid #003333;
+	color: #003333;
+}
+.clearfix{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
