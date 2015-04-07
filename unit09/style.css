@@ -1,0 +1,264 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Slabo+13px);
+@font-face{
+	font-family: AvenirNextBold;
+	src: url(fonts/AvenirNextBold.otf);
+}
+body{
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	max-width: 1040px;
+	margin: 0 auto;
+	background-color: #e3e0df;
+
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.25em;
+	line-height: 1.5em;
+}
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	color: #fff;
+}
+h3{
+	font-family: 'Slabo 13px', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+h4{
+	font-family: 'Slabo 13px', serif;
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #fff;
+}
+p{
+	font-family: 'Slabo 13px', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #003333;
+}
+ul{
+	text-align: left;
+}
+li{
+	font-family: 'AvenirNextBold', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	color: #996600;
+	display: block;
+	padding: 5px 15px;
+}
+li a{
+	text-decoration: none;
+	color: #996600;
+}
+li a:hover{
+	text-decoration: none;
+	color: #003333;
+	-webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+span{
+	font-size: 18px;
+	color: #fff;
+}
+section{
+	padding: 50px 100px 0;
+}
+header{
+	background-color: #fff;
+	position: relative;
+	padding: 15px 0;
+}
+nav{
+	float: left;
+	position: absolute;
+	bottom: 0;
+	padding: 0 0 15px 25px;
+}
+footer{
+	padding: 50px;
+	background-color: #333;
+	color: #C5EAD5;
+}
+#logo{
+	display: block;
+	margin: 0 auto;
+}
+#shopintro{
+	background-color: #003333;
+	color: #fff;
+	height: 425px;
+}
+#shopintro img{
+	padding-bottom: 50px;
+}
+#shop{
+	background-color:red;
+	padding-left: 40px;
+	text-align: left;
+}
+#product{
+	display: inline;
+}
+#product img{
+	width: 30%;
+}
+#storyintro{
+	background: url('images/story_d.jpg') no-repeat top right;
+	background-size: cover;
+	height: 425px;
+}
+#babyspoon{
+	background: url('images/babyspoon_d.jpg') no-repeat bottom center;
+	background-size: cover;
+	height: 425px;
+	padding: 50px 50px 0;
+}
+#petitespoon{
+	background: url('images/petitespoon_d.jpg') no-repeat bottom center;
+	background-size: cover;
+	height: 425px;
+	padding: 50px 50px 0;
+}
+#coffeescoop{
+	background: url('images/coffeescoop_d.jpg') no-repeat bottom center;
+	background-size: cover;
+	height: 425px;
+	padding: 50px 50px 0;
+}
+#cookingspoon{
+	background: url('images/cookingspoon_d.jpg') no-repeat bottom center;
+	background-size: cover;
+	height: 425px;
+	padding: 50px 50px 0;
+}
+
+#productdescrip{
+	width: 300px;
+	margin: 0 auto;
+}
+.buttonshop, .buttonstory, .buttonproduct{
+	font-family: 'AvenirNextBold',sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	display: inline-block;
+	border: 2px solid #C5EAD5;
+	margin: 10px 0;
+	padding: 5px 15px;
+	color: #fff;
+}
+.buttonshop:hover{
+    background: #C5EAD5;
+    color: #003333;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}	
+.buttonstory{
+	background-color: #996600;
+	border: 2px solid #996600;
+	color: #fff;
+}
+.buttonstory:hover{
+    background: #996600;
+    border: 2px solid #996600;
+    color: #003333;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}	
+.buttonproduct{
+	border: 2px solid #003333;
+	color: #003333;
+}
+.buttonproduct:hover{
+    background: #003333;
+    color: #fff;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}	
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+/*media queries for tablet*/
+
+@media only screen and (max-width: 768px){
+#storyintro{
+	background: url('images/story_t.jpg') no-repeat top right;
+	background-size: cover;
+	padding: 50px 50px 0;
+	overflow: auto;
+}
+}
+
+/*media queries for mobile*/
+
+@media only screen and (max-width: 400px) {
+header{
+	padding: 0 0 20px 0;
+}
+nav{
+	width: 400px;
+	float: left;
+	position: relative;
+	padding: 0;
+	background-color: #e3e0df;
+	margin-bottom: 20px;
+}
+ul{
+	text-align:center;
+}
+li{
+	font-family: 'AvenirNextBold', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	color: #996600;
+	display: inline-block;
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.75em;
+	line-height: 1.4em;
+}
+h3{
+}
+section{
+	height: 250px;
+}
+#logo img{
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+#shopintro{
+	padding: 20px 20px 0;
+	height: 300px;
+}
+#shopintro img{
+	padding-bottom: 25px;
+}
+#storyintro{
+	background: url('images/story_m.jpg') no-repeat top right;
+	background-size: cover;
+	padding: 20px 20px 0;
+	height: 300px;
+	overflow: auto;
+}
+}
