@@ -1,0 +1,335 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Slabo+13px);
+@font-face{
+	font-family: AvenirNextBold;
+	src: url(fonts/AvenirNextBold.otf);
+}
+body{
+	font-size: 16px;
+	text-align: center;
+	position: relative;
+	max-width: 1040px;
+	margin: 0 auto;
+	background-color: #e3e0df;
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.25em;
+	line-height: 1.5em;
+}
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	color: #fff;
+}
+h3{
+	font-family: 'Slabo 13px', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+h4{
+	font-family: 'Slabo 13px', serif;
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #fff;
+}
+h5{
+	font-family: 'Slabo 13px', serif;
+	font-size: .8em;
+	color: #333;
+	letter-spacing: 0.03em;
+	line-height: 1.5em;
+}
+p{
+	font-family: 'Slabo 13px', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #003333;
+}
+ul{
+	text-align: left;
+}
+li{
+	font-family: 'AvenirNextBold', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	color: #996600;
+	display: block;
+	padding: 5px 15px;
+}
+li a{
+	text-decoration: none;
+	color: #996600;
+}
+li a:hover{
+	text-decoration: none;
+	color: #003333;
+	-webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+span{
+	font-size: 18px;
+	color: #fff;
+}
+section{
+	padding: 50px 100px 0;
+}
+header{
+	background-color: #fff;
+	position: relative;
+	padding: 15px 0;
+}
+nav{
+	float: left;
+	position: absolute;
+	bottom: 0;
+	padding: 0 0 15px 25px;
+}
+figure{
+	float: left;
+	background-color: white;
+}
+figcaption{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1em;
+	color: #003333;
+	text-align: center;
+	padding: 1em 1em 2em;
+}
+footer{
+	padding: 10px 0 10px 40px;
+	background-color: white;
+	text-align: center;
+}
+hr{
+	border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+#contact{
+	padding: 50px;
+	background-color: #333;
+	color: #C5EAD5;
+}
+#logo{
+	display: block;
+	margin: 0 auto;
+}
+#shopintro{
+	background-color: #003333;
+	color: #fff;
+	height: 425px;
+}
+#shopintro img{
+	padding-bottom: 50px;
+}
+/*shop.html style*/
+#shop{
+	background-color: red;
+	text-align: left;
+}
+/* home story section image*/
+#storyintro{
+	background: url('images/story_d.jpg') no-repeat top right;
+	background-size: cover;
+	height: 425px;
+}
+/* home product feature section image*/
+#babyspoon, #petitespoon, {
+/*added repeated styles here
+*/}
+
+#babyspoon{
+	background: url('images/babyspoon_d.jpg') no-repeat bottom center;
+	background-size: cover;
+	height: 425px;
+	padding: 50px 50px 0;
+}
+/* home product feature section image*/
+#petitespoon{
+	background: url('images/petitespoon_d.jpg') no-repeat bottom center;
+	background-size: cover;
+	height: 425px;
+	padding: 50px 50px 0;
+}
+/* home product feature section image*/
+#coffeescoop{
+	background: url('images/coffeescoop_d.jpg') no-repeat bottom center;
+	background-size: cover;
+	height: 425px;
+	padding: 50px 50px 0;
+}
+/* home product feature section image*/
+#cookingspoon{
+	background: url('images/cookingspoon_d.jpg') no-repeat bottom center;
+	background-size: cover;
+	height: 425px;
+	padding: 50px 50px 0;
+}
+/* home product feature section text paragraph*/
+.productdescrip{
+	width: 300px;
+	margin: 0 auto;
+}
+/*shop.html style -- used for 3 column product grid*/
+.productgrid{
+	float: left;
+	width: 33.33%;
+	background-color: red;
+}
+/*shop.html style -- used for 3 column product grid*/
+.productgrid img{
+	width: 100%;
+	max-width: 400px;
+	padding-bottom: .25em;
+	display: block;
+}
+/*individual product pages --i.e. petitespoon.html*/
+/*.product{
+	float: left;
+	width: 100%;
+}
+*/.product img{
+	width: 100%;
+}
+/*individual product pages --i.e. petitespoon.html*/
+.product{
+	float: left;
+	width: 92%;
+	text-align: left;
+	padding: 2% 4% 0;
+}
+.product h2{
+	color: #003333;
+}
+/* home button styles*/
+.buttonshop, .buttonstory, .buttonproduct{
+	font-family: 'AvenirNextBold',sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	display: inline-block;
+	border: 2px solid #C5EAD5;
+	margin: 10px 0;
+	padding: 5px 15px;
+	color: #fff;
+}
+.buttonshop:hover{
+    background: #C5EAD5;
+    color: #003333;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}	
+.buttonstory{
+	background-color: #996600;
+	border: 2px solid #996600;
+	color: #fff;
+}
+.buttonstory:hover{
+    background: #996600;
+    border: 2px solid #996600;
+    color: #003333;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}	
+.buttonproduct{
+	border: 2px solid #003333;
+	color: #003333;
+}
+.buttonproduct:hover{
+    background: #003333;
+    color: #fff;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}	
+.wrapper{
+	width: 100%;
+	background-color: white;
+}
+.rule{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+/*media queries for tablet*/
+
+@media only screen and (max-width: 768px){
+#storyintro{
+	background: url('images/story_t.jpg') no-repeat top right;
+	background-size: cover;
+	padding: 50px 50px 0;
+	overflow: auto;
+}
+}
+
+/*media queries for mobile*/
+
+@media only screen and (max-width: 400px) {
+header{
+	padding: 0 0 20px 0;
+}
+nav{
+	width: 400px;
+	float: left;
+	position: relative;
+	padding: 0;
+	background-color: #e3e0df;
+	margin-bottom: 20px;
+}
+ul{
+	text-align:center;
+}
+li{
+	font-family: 'AvenirNextBold', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	color: #996600;
+	display: inline-block;
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.75em;
+	line-height: 1.4em;
+}
+h3{
+}
+section{
+	height: 250px;
+}
+#logo img{
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+#shopintro{
+	padding: 20px 20px 0;
+	height: 300px;
+}
+#shopintro img{
+	padding-bottom: 25px;
+}
+#storyintro{
+	background: url('images/story_m.jpg') no-repeat top right;
+	background-size: cover;
+	padding: 20px 20px 0;
+	height: 300px;
+	overflow: auto;
+}
+}
