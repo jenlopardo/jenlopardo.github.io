@@ -88,9 +88,8 @@ a:visited{
 	padding: 10px;
 }
 #content{
-	margin: 0 50px;
+	padding: 25px;
 	text-align: center;
-	padding: 15px 5px;
 }
 #footer{
 	background-color: #5a1b1d;
