@@ -14,6 +14,10 @@ h1{
 h1.mission, h1.supplement{
 	color:#0092d0;
 }
+h1.thanks{
+	color:#fff;
+	font-size: 1.5em;
+}
 h2{
 	font-family: 'Lato', sans-serif; font-weight: 900;
 	color:#fff;
@@ -125,12 +129,13 @@ nav{
 }
 nav img{
 	text-align: left;
+	margin-left: 25px
 }
 nav ul{
 	float: right;
 	position: absolute;
 	bottom: 0;
-	right: 0;
+	right: 25px;
 }
 nav li{
 	display: inline-block;
@@ -168,24 +173,38 @@ li a:hover{
 #tickets{
 	padding: 50px;
 }
+#ask{
+	background: #003399;
+	background-image: url(images/givingbkgrd.png);
+	background-repeat: no-repeat;
+	background-position: 50% 15%;
+	text-align: center;
+	height: 100%;
+	overflow:hidden;
+	padding-bottom: 50px;
+}
 #event{
 	background: #5a1b1d;
 	background-image: url(images/eventbkgrd.png);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 50% 15%;
 	text-align: center;
-	overflow:auto;
+	height: 100%;
+	overflow:hidden;
 }
 #mission{ 
 	background: #fff;
-	overflow:auto;
+	height: 100%;
+	overflow:hidden;
 }
 #future{
 	background: #0287bf;
-	overflow:auto;
+	height: 100%;
+	overflow:hidden;
 }
 #supplement{
-	overflow:auto;
+	height: 100%;
+	overflow:hidden;
 }
 #footer{
 }
