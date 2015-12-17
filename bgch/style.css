@@ -147,7 +147,7 @@ li{
 	letter-spacing: 3px;
 	color: #fff;
 	display: inline;
-	padding: 5px 15px;
+	padding: 5px 10px;
 	text-transform: uppercase;
 }
 li a:link, li a:visited{
@@ -187,7 +187,7 @@ li a:hover{
 	background: #5a1b1d;
 	background-image: url(images/eventbkgrd.png);
 	background-repeat: no-repeat;
-	background-position: 50% 15%;
+	background-position: 50%;
 	text-align: center;
 	height: 100%;
 	overflow:hidden;
